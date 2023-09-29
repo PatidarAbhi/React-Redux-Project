@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#sidebar {
+  width: 250px;
+  /* Adjust the width as needed */
+  background-color: #333;
+  /* Background color of the sidebar */
+  color: #fff;
+  /* Text color for the sidebar */
+  padding: 20px;
+  /* Add padding for content inside the sidebar */
+  box-sizing: border-box;
+  /* Ensure padding and border are included in the width */
+  position: fixed;
+  /* Fixed position to keep the sidebar always visible */
+  top: 0;
+  /* Position from the top of the viewport */
+  left: 0;
+  /* Position from the left of the viewport */
+  height: 100%;
+  /* Make the sidebar take the full height of the viewport */
+}
+#sidebar button {
+  font-size: 16px;
+  /* Example text size */
+  font-weight: bold;
+  /* Make text bold */
+  margin: 5px 0;
+  /* Example margin (top and bottom) */
+  padding: 10px 20px;
+  width: 150px;
+}
+#displayContent {
+  margin-left: 250px;
+  /* Adjust margin to match the width of the sidebar */
+  padding: 20px;
+}
